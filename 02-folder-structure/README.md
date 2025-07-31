@@ -12,7 +12,7 @@
 ### **Important System Directories**
 | Directory | Description |
 |-----------|-------------|
-| `/boot` | Stores files needed for booting the system (not relevant in containers). |
+| `/boot` | Stores files needed for booting(starting/restarting) the system i.e starting the linux machine (not relevant in containers coz they are stimulation of linux env). |
 | `/usr` | Contains most user-installed applications and libraries. |
 | `/var` | Stores logs, caches, and temporary files that change frequently. |
 | `/etc` | Stores system configuration files. |
