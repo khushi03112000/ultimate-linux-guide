@@ -39,6 +39,6 @@
 ### **Mount Points**
 | Directory | Description |
 |-----------|-------------|
-| `/mnt` | Temporary mount point for external filesystems. |
+| `/mnt` | Temporary mount point for external filesystems. Folder used by linux administrators to mount new volumes(disks) |
 | `/media` | Mount point for removable media (USB, CDs). |
 | `/data` | Likely your **mounted volume** from Windows (`C:/ubuntu-data`). |
