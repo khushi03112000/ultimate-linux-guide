@@ -16,7 +16,7 @@
 |-----------|-------------|
 | `/boot` | Stores files needed for booting(starting/restarting) the system i.e starting the linux machine (not relevant in containers coz they are stimulation of linux env). |
 | `/usr` | Contains most user-installed applications and libraries. |
-| `/var` | Stores logs, caches, and temporary files that change frequently. |
+| `/var` | Stores logs, caches, and temporary files that change frequently. When u install web server like Apache, nginx or any 3rd party app, their logs get stored in var folder |
 | `/etc` | Stores system configuration files. |
 
 ### **User & Application-Specific Directories**
