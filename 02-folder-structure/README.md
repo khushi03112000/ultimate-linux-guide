@@ -27,7 +27,7 @@
 | `/srv` | Holds data for services like web servers (rarely used in containers). |
 | `/root` | Home directory for the root user. |
 
-### **Temporary & Volatile Directories**
+### **Temporary & Volatile Directories i.e data within these folders are temporary**
 | Directory | Description |
 |-----------|-------------|
 | `/tmp` | Temporary files (cleared on reboot). |
