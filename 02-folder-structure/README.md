@@ -26,6 +26,7 @@
 | `/opt` | Used for installing optional third-party software like JAVA etc. You can install it anywhere in home directory or create any new directory but best practise says that to install 3rd party s/w use "opt" directory  |
 | `/srv` | Holds data for services like web servers (rarely used in containers). |
 | `/root` | Home directory for the root user only otherwise the home directory for other users like ubuntu, khushi are /home/ubuntu, /home/khushi. |
+<img width="304" height="161" alt="Screenshot 2025-07-31 at 7 18 27 PM" src="https://github.com/user-attachments/assets/0e83cdfc-db24-4965-af0a-d7f39df6c0d3" />
 
 ### **Temporary & Volatile Directories i.e data within these folders are temporary**
 | Directory | Description |
