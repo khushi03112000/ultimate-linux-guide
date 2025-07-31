@@ -17,8 +17,7 @@
 | `/boot` | Stores files needed for booting(starting/restarting) the system i.e starting the linux machine (not relevant in containers coz they are stimulation of linux env). |
 | `/usr` | Contains most user-installed applications and libraries. |
 | `/var` | Stores logs, caches, and temporary files that change frequently. When u install web server like Apache, nginx or any 3rd party app, their logs get stored in var folder |
-| `/etc` | Equiv to C:/ folder of Windows. Stores system configuration files. Using these files u can change ur system config.  
-Using files like "passwd" u can change password of any user, "hosts" contains local DNS caching in linux machine, "os-release" contains linux environ OS details |
+| `/etc` | Equiv to C:/ folder of Windows. Stores system configuration files. Using these files u can change ur system config.  Using files like "passwd" u can change password of any user, "hosts" contains local DNS caching in linux machine, "os-release" contains linux environ OS details |
 
 
 <img width="998" height="270" alt="Screenshot 2025-07-31 at 7 27 32 PM" src="https://github.com/user-attachments/assets/a402075a-3b2f-4dbc-956c-9dad6956e6fc" />
@@ -48,3 +47,8 @@ Using files like "passwd" u can change password of any user, "hosts" contains lo
 | `/mnt` | Temporary mount point for external filesystems. Folder used by linux administrators to mount new volumes(disks) |
 | `/media` | Mount point for removable media (USB, CDs). |
 | `/data` | Any data that you can share with other admins or ppl in org can be kept in this folder. Likely your **mounted volume** from Windows (`C:/ubuntu-data`). |
+
+### PATH
+Ques : You are able to run ls, without specifying /usr/bin/ls the entire path of it but then also Kernel is able to understand "ls" and fetch u result how??
+Ans : There is a PATH which tells that when a command is entered, check if it exists in any of the folders mentioned in the $PATH. .You can add more folders to this PATH as well
+<img width="738" height="157" alt="Screenshot 2025-07-31 at 7 34 00 PM" src="https://github.com/user-attachments/assets/e2104230-e774-488e-8f73-9433bfad26de" />
