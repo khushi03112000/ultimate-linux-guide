@@ -23,7 +23,7 @@
 | Directory | Description |
 |-----------|-------------|
 | `/home` | Default location for user home directories. |
-| `/opt` | Used for installing optional third-party software. |
+| `/opt` | Used for installing optional third-party software like JAVA etc. You can install it anywhere in home directory or create any new directory but best practise says that to install 3rd party s/w use "opt" directory  |
 | `/srv` | Holds data for services like web servers (rarely used in containers). |
 | `/root` | Home directory for the root user. |
 
