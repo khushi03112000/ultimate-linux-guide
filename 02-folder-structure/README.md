@@ -41,4 +41,4 @@
 |-----------|-------------|
 | `/mnt` | Temporary mount point for external filesystems. Folder used by linux administrators to mount new volumes(disks) |
 | `/media` | Mount point for removable media (USB, CDs). |
-| `/data` | Likely your **mounted volume** from Windows (`C:/ubuntu-data`). |
+| `/data` | Any data that you can share with other admins or ppl in org can be kept in this folder. Likely your **mounted volume** from Windows (`C:/ubuntu-data`). |
