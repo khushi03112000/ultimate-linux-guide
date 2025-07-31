@@ -7,7 +7,7 @@
 |-----------|-------------|
 | `/sbin -> /usr/sbin` | System binaries for administrative commands (linked to `/usr/sbin`). |
 | `/bin -> /usr/bin` | Essential user binaries (linked to `/usr/bin`). |
-| `/lib -> /usr/lib` | Shared libraries and kernel modules (linked to `/usr/lib`). |
+| `/lib -> /usr/lib` | Shared libraries and kernel modules (linked to `/usr/lib`). Used by Kernel mostly for making system calls with h/w to do actions|
 
 ### **Important System Directories**
 | Directory | Description |
