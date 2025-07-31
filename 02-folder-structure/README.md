@@ -5,9 +5,11 @@
 ### **Symbolic Links (Less Significant)**
 | Directory | Description |
 |-----------|-------------|
-| `/sbin -> /usr/sbin` | System binaries for administrative commands (linked to `/usr/sbin`). |
-| `/bin -> /usr/bin` | Essential user binaries (linked to `/usr/bin`). |
+| `/sbin -> /usr/sbin` | System binaries(commands) for administrative commands (linked to `/usr/sbin`), hence grant sbin access to administrative users only|
+| `/bin -> /usr/bin` | Essential user binaries(commands) (linked to `/usr/bin`), hence grant bin access to any user |
 | `/lib -> /usr/lib` | Shared libraries and kernel modules (linked to `/usr/lib`). Used by Kernel mostly for making system calls with h/w to do actions|
+<img width="591" height="319" alt="Screenshot 2025-07-31 at 6 50 14 PM" src="https://github.com/user-attachments/assets/d7fcf785-ec16-45be-a02a-ad66ff8f4b70" />
+
 
 ### **Important System Directories**
 | Directory | Description |
