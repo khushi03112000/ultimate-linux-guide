@@ -42,7 +42,7 @@ useradd -s /bin/bash username
 ```bash
 adduser username
 ```
-This is an interactive command that asks for a password and additional details.
+This is an interactive command that asks for a password and additional details. Creates home directory as well for the user. Good command
 
 ## Managing User Passwords
 To set or change a user’s password:
