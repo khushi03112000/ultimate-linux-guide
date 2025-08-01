@@ -3,6 +3,16 @@
 ## Introduction to User Management in Linux
 Linux is a multi-user operating system, meaning multiple users can operate on a system simultaneously. Proper user management ensures security, controlled access, and system integrity. 
 
+**Command to adduser** -> **useradd < username >**
+Now to check if user is created correctly, check in **vim /etc/passwd**   
+
+<img width="826" height="770" alt="Screenshot 2025-08-01 at 11 48 33 AM" src="https://github.com/user-attachments/assets/4278bd26-1f28-49d1-b924-34f21985ad0e" />    
+  
+Now what is a user without password, so set the password -> **passwd < username >** and check the password using **cat /etc/shadow.**   
+Also if a user forgets a password or if u want to decrypt the password shown in the /etc/shadow folder, it is impossible as the encryption is highly secure and one way only.
+
+<img width="1409" height="776" alt="Screenshot 2025-08-01 at 11 49 22 AM" src="https://github.com/user-attachments/assets/a90698ac-7bbb-4300-a81b-a518a9cb4505" />
+
 Key files involved in user management:
 - `/etc/passwd` – Stores user account details.
 - `/etc/shadow` – Stores encrypted user passwords.
