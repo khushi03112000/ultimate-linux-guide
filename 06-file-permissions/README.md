@@ -45,6 +45,7 @@ chmod 700 filename  # User (rwx), No access for others
 ```
 
 ## Changing Ownership with `chown`
+**Note : When you are changing ownership of a file to a diff user, u should be logged in as Root User only. If not then switch the user to root and then only chown command will work**
 Modify file owner and group:
 ```bash
 chown newuser filename  # Change owner
