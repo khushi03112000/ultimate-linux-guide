@@ -44,6 +44,10 @@ adduser username
 ```
 This is an interactive command that asks for a password and additional details. Creates home directory as well for the user. Good command
 
+### Normal users don't have admin rights to delete sbin folders and all, only Root user has  
+Command to switch to diff user : **su - < username>**  
+<img width="741" height="284" alt="Screenshot 2025-08-01 at 12 56 55 PM" src="https://github.com/user-attachments/assets/cdd5735c-1807-4a09-911e-6b61e43c8df8" />
+
 ## Managing User Passwords
 To set or change a user’s password:
 ```bash
