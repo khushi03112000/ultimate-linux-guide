@@ -48,6 +48,12 @@ This is an interactive command that asks for a password and additional details. 
 Command to switch to diff user : **su - < username>**  
 <img width="741" height="284" alt="Screenshot 2025-08-01 at 12 56 55 PM" src="https://github.com/user-attachments/assets/cdd5735c-1807-4a09-911e-6b61e43c8df8" />
 
+### Importance of useradd over adduser ->  
+when u don't want interactive session like when creating automation scripts u just want to create a user and move on with next step then useradd is useful. In adduser, it will ask password and all so not useful when writing automation scripts
+
+<img width="530" height="347" alt="Screenshot 2025-08-01 at 1 01 05 PM" src="https://github.com/user-attachments/assets/dedf6c04-77ea-4d4b-ab71-b3bb7604716f" />
+
+
 ## Managing User Passwords
 To set or change a user’s password:
 ```bash
