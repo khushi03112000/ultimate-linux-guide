@@ -6,10 +6,16 @@ Monitoring system resources is essential to ensure optimal performance, detect i
 ## Index of Commands Covered
 
 ### CPU and Memory Monitoring
-- `top` – Real-time system monitoring
+- `top` – Real-time system monitoring whereas ps aux shows lists of running processes but not realtime process listing.
 - `htop` – Interactive process viewer (requires installation)
 - `vmstat` – Report system performance statistics
-- `free -m` – Show memory usage
+  <img width="799" height="142" alt="Screenshot 2025-08-02 at 9 32 41 AM" src="https://github.com/user-attachments/assets/08777034-10dc-4818-82ec-ec001f67c781" />
+- `free -m` – Show memory usage in machine readable format
+- `free -h` - Show memory usage in human readable format
+- `nproc` = amount of CPU available
+ <img width="707" height="172" alt="Screenshot 2025-08-02 at 9 36 44 AM" src="https://github.com/user-attachments/assets/94f609f8-443a-4394-9cc8-5a91db83a77c" />
+
+**top command shows interactive realtime monitoring hence cannot be used in Shell scripts as it doesn't give static output. So if you're running any shell script, use vmstat or free -m command which gives static o/p**
 
 ### Disk Monitoring
 - `df -h` – Check disk space usage
