@@ -151,9 +151,15 @@ Change the priority of an existing process:
 ```bash
 renice -n -5 -p PID
 ```
+## Diff btwn Process and Service 
+Service are special kind of process only that starts automatically after the linux server starts/restarts after stopping. Utility : u want ur web servers to start auto after linux server starts so u make web server process as a service in their installation scripts.  
+`ps aux` - list processes   
+`systemctl list-units --type=service` = list services 
+<img width="1027" height="336" alt="Screenshot 2025-08-02 at 9 24 34 AM" src="https://github.com/user-attachments/assets/7f1ec6bc-da4c-491c-a309-a6b448201d51" />
 
 ## Daemon Processes
 Daemon processes run in the background without user intervention.
+
 List all system daemons:
 ```bash
 systemctl list-units --type=service
