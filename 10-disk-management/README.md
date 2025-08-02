@@ -2,12 +2,13 @@
 
 ## Introduction to Disk and Storage Management
 Managing disks and storage efficiently is crucial for system performance and stability. Linux provides various commands to monitor, partition, format, mount, and manage disk storage.
+1. By default when u add the storage to linux it is in Block storage format which apps can't directly use it. It needs to be converted to filesystem type like ext4, xfs then only apps can use it.
 
 ## Index of Commands Covered
 
 ### Viewing Disk Information
 - `lsblk` – Display block devices
-- `fdisk -l` – List disk partitions
+- `fdisk -l` – List disk partitions; shows detailed o/p at file system level
 - `blkid` – Show UUIDs of devices
 - `df -h` – Check disk space usage
 - `du -sh /path` – Show size of a directory
