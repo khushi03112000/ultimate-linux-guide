@@ -20,6 +20,9 @@ Monitoring system resources is essential to ensure optimal performance, detect i
 ### Disk Monitoring
 - `df -h` – Check disk space usage
 - `du -sh /path` – Show disk usage of a specific directory
+- `du -sh` - suppose you're in any folder and now wants to see disk spaces of it then run du -sh command.
+ <img width="331" height="192" alt="Screenshot 2025-08-02 at 9 44 33 AM" src="https://github.com/user-attachments/assets/7fc6e1ee-95cf-4741-b0fe-1c23da749ae2" />
+
 - `iostat` – Display CPU and disk I/O statistics
 
 ### Network Monitoring
