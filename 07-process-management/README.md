@@ -7,12 +7,17 @@ A process is an instance of a running program. Linux provides multiple utilities
 
 ### Viewing Processes
 - `ps aux` – View all running processes
+- `ps aux | nl` - View all running processes with number count
+- `ps aux | wc -l` - Only prints the total count of number of processes
+- **Note** - Diff btwn `ps aux` and `ps -ef` = both show running processes but ps aux also shows Memory Utilization also which ps -ef doesn't. So when you want more output related to the process, u go for ps aux
+- <img width="788" height="421" alt="Screenshot 2025-08-02 at 8 42 19 AM" src="https://github.com/user-attachments/assets/118a69eb-3e52-4235-b8b5-5b055160a263" />
+
 - `ps -u username` – View processes for a specific user
 - `ps -C processname` – Show a process by name
 - `pgrep processname` – Find a process by name and return its PID
 - `pidof processname` – Find the PID of a running program
 
-### Managing Processes
+### Managing Processes - to kill a process first view/check process by ps aux to get PID then do kill command
 - `kill PID` – Terminate a process by PID
 - `pkill processname` – Terminate a process by name
 - `kill -9 PID` – Force kill a process
